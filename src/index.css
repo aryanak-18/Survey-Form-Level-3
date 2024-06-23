@@ -1,13 +1,188 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  width: fit-content;
+}
+
+p {
+  color: red;
+  font-size: 0.9em;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+.labels {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.labels-survey {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+select {
+  /* font-size: 10px; */
+  font-weight: 600;
+}
+
+.survey-options {
+  width: 200px;
+  height: 30px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+#survey-options-1 {
+  width: 200px;
+  height: 30px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.summary {
+  margin: auto;
+  /* max-width: 435px; */
+  width: max-content;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.summary-2 {
+  width: max-content;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.summary h2 {
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary p {
+  /* margin: 10px 20px; */
+  font-size: 1.1em;
+  width: fit-content;
+  color: black;
+}
+
+.summary strong {
+  font-weight: bold;
+}
+
+.data-box {
+  width: fit-content;
+  margin-left: 20px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.question{
+  font-size: 0.95em;
+  /* margin-left: 50px; */
+  padding-left: 0px;
+  width: fit-content;
+  color: black;
+}
+
+.answer{
+  font-size: 1em;
+  /* margin-left: 50px; */
+  padding-left: 0px;
+  width: fit-content;
+  color: black;
+}
+.no-answer{
+  margin-left: 35px;
+}
+
+.qa-label{
+  font-weight: bold;
+}
+
+.qa-label-2{
+  font-weight: bold;
+  width: fit-content;
+  height: fit-content;
+}
+
+.question-box{
+  margin-bottom: 20px;
+  width: fit-content;
+  padding: 0px;
+}
+
+.textarea-x{
+  /* margin-left: 35px; */
+width: fit-content;
+display:flex;
 }
